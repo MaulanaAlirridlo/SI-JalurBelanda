@@ -1,13 +1,14 @@
 :root {
   --main-bg: #fdf3ee;
   --secondary-bg: #9a6836;
+  --line: #906132;
 }
 
 body {
   background-color: var(--main-bg);
 }
 
-.navbar {
+header, footer {
   background-color: var(--secondary-bg);
 }
 
@@ -31,4 +32,58 @@ body {
 
 .nav-item {
   margin-left: 1rem;
+}
+
+.main {
+  min-height: 70vh;
+}
+
+footer h4 {
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer i {
+  font-size: 30px;
+}
+
+footer .logo {
+  margin: auto;
+  width: 130px;
+  height: auto;
+}
+
+footer .copyright {
+  border-top: 1px solid var(--line) ;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /*  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  footer .logo {
+    margin: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /*  */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*  */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /*  */
 }

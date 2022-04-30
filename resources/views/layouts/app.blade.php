@@ -52,12 +52,52 @@
     </nav>
   </header>
 
-  <section class="container">
+  <section class="container main">
     @yield('main')
   </section>
 
   <footer>
-
+    <div class="container text-white">
+      <div class="row pt-5 pb-4">
+        <div class="col-md-5 text-center text-md-start">
+          <div class="row">
+            <img src="https://freepikpsd.com/file/2019/10/aa-logo-png-13-Free-PNG-Images-Transparent.png" alt="" class="logo">
+          </div>
+          <div class="row">
+            <p>jual beli platform furnitur di Indonesia</p>
+          </div>
+          <div class="row d-block mb-5 mb-md-0">
+            <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram-square"></i></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <h4>Akunku</h4>
+          <p>Akunku</p>
+          <p>Checkout</p>
+          <p>Keranjang</p>
+          <p>Daftar Keinginan</p>
+        </div>
+        <div class="col">
+          <h4>Jalur Belanda</h4>
+          <p>Produk</p>
+          <p>Promo</p>
+          <p>Rekomendasi</p>
+          <p>Tentang Kita</p>
+        </div>
+        <div class="col-md mt-5 mt-md-0">
+          <h4 class="text-center text-md-start">Buletin</h4>
+          <form action="" class="">
+            <label for="subscribe">Dapatkan pemberitahuan terbaru kami melalui email.</label>
+            <input type="text" id="subscribe" placeholder="Masukkan email" class="form-control my-3">
+          </form>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p class="py-3">©2022 Jalur Belanda Powered By G-Enterprise</p>
+      </div>
+    </div>
   </footer>
 
   {{-- boostsrap --}}
